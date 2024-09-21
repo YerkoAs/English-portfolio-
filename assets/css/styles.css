@@ -1,7 +1,25 @@
-:root{
+/* :root{
     --header-height: 400px;
     --primary-color: rgb(188, 188, 32);
     --secondary-color: rgb(251, 245, 238);
+    --text-color: rgb(50, 92, 80);
+    --shadow-color:rgb(169, 169, 169);
+    --link-color:rgb(1, 20, 18);
+    --skill-card-color:rgba(240, 219, 182, 0.495);
+    --skill-card-border:rgba(0, 0, 0, 0.195);
+    --projects-color:rgba(249, 249, 11, 0.107);
+    --media-background:rgba(230, 230, 55, 0.569);
+    --hero-background-img:url("../img/DSC_0004.jpg");
+    --hero-icons-color:black;
+    --html-background-color:rgb(255, 255, 255);
+    --text-color:rgb(0, 0, 0);
+    --primary-color2:rgba(63, 63, 12, 0.536);
+    --dark-color:black;
+} */
+:root{
+    --header-height: 400px;
+    --primary-color: #4d774e;
+    --secondary-color: #164A41;
     --text-color: rgb(50, 92, 80);
     --shadow-color:rgb(169, 169, 169);
     --link-color:rgb(1, 20, 18);
