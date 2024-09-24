@@ -21,33 +21,36 @@
         
     }) 
 
-    
-    
-
-
-
-
-
-  var typed = new Typed('#typing', {
-    strings: ['Photographer', 'Developer', 'Designer'],
-    typeSpeed: 50,
-    backSpeed : 50,
-    startDelay : 25,
-    loop : true,
-    loopCount : Infinity
-});
-
-const sr = new ScrollReveal({
-  origin: 'top',
-  distance: '80px',
-  duration: 2000,
-  reset: true
-})
-
-sr.reveal('.hero__content-img', { origin: 'right', distance: '100px' })
-sr.reveal('.hero__content-body', { origin: 'left', distance: '100px' })
-sr.reveal('.about p', { origin: 'bottom', distance: '100px', duration: 2000 })
-sr.reveal('.about p+p', { origin: 'bottom', distance: '100px', duration: 3000 })
-sr.reveal('.skills__content', { origin: 'top', distance: '100px' })
-
  
+
+  const body = document.body
+  const ls = window.localStorage
+  const btnTheme = document.getElementById('btnTheme')
+
+  const theme = ls.getItem('darkMode')
+  const sun = 'bx bxs-sun'
+  const moon = 'bx bxs-moon'
+
+  if (theme) {
+    body.classList.add('dark')
+    btnTheme.firstElementChild.className = sun
+  } else {
+    body.classList.remove('dark')
+    btnTheme.firstElementChild.className = moon
+  }
+  
+  btnTheme.addEventListener('click', function () {
+    body.classList.toggle('dark')
+    if (body.classList.contains('dark')) {
+      ls.setItem('darkMode', true)
+      btnTheme.firstElementChild.className = sun
+    } else {
+      ls.removeItem('darkMode')
+      btnTheme.firstElementChild.className = moon
+    }
+  
+  })
+
+
+
+

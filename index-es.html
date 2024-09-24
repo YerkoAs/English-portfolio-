@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo1</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&  display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <!-- header -->
+    <header class="header">
+      <nav class="nav-container">
+        <div class="logo-container"></div>
+          <a href="/" class="logo-container">
+            <i class='bx bxs-blanket'></i>
+            <span class="logo"></span>
+          </a>
+        </div>
+        <div id="menu" class="menu">
+        
+          
+          
+          <div class="menu-back">
+            <button class="close-button" id="closeButton"> <i class='bx bx-x'></i></button>
+            <ul class="menu-list">
+              <li class="menu-list-item" id="menu-list-item"><a href="#inicio" class="menu-list-link" id="menu-list-item">Inicio</a></li>
+              <li class="menu-list-item"><a href="#a-cerca-de-mi" class="menu-list-link" id="menu-list-item">Acerca de mi</a></li>
+              <li class="menu-list-item"><a href="#habilidades" class="menu-list-link" id="menu-list-item">Habilidades</a></li>
+              <li class="menu-list-item" id="menu-list-item"><a href="#mis-trabajos" class="menu-list-link" id="menu-list-item">Proyetos</a></li>
+              <li class="menu-list-item" id="menu-list-item"><a href="#contacto" class="menu-list-link" id="menu-list-item">Informacion de contacto</a></li>
+            </ul>   
+            
+        </button>
+        </div>
+      </div>
+      <div class="buttons">
+        
+        <button class="lang" onclick="switchLanguage('eng')">Eng</button> 
+        <button class="open-button btn" id="openButton" aria-label="open"> 
+          <i class='bx bx-menu-alt-left'></i>
+      </button>
+
+      <button type="button" id="btnTheme" class="btn btn-theme" aria-label="theme">
+        <i class='bx bxs-moon'></i>
+      </button>
+      </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section id="inicio" class="hero">
+        <div class="hero-container"></div>
+
+          <h1 class="hero-tittle">Hola!! <br>Soy <br><span class="hero-tittle-name">Yerko Asbun</span></h1>
+          
+          <p  class="typing rl" ><span id="typing"></span></p>
+          <br>
+          <h2 class="hero-tittle2 rl">y estoy emocinado de poder compartir un poco de mi trabajo contigo.</h2>
+          <div class="media-container">
+            <ul class="social">
+              <li class="social-item"><a href="#" class="social-link" aria-label="Facebook"><i class="bx bxl-facebook"></i></a></li>
+              <li class="social-item"><a href="#" class="social-link" aria-label="linkedin"><i class="bx bxl-linkedin"></i></a></li>
+              <li class="social-item"><a href="https://github.com/YerkoAs" class="social-link" aria-label="github"><i class="bx bxl-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="a-cerca-de-mi"class="section">
+        <div class="container">
+          <h2 class="section tittle-section first">A cerca de mi</h2>
+          <div class="line"></div>
+          <p class="paragraph-section">Soy un desarrollador web apasionado y motivado. Mi trayectoria en el mundo tecnológico comenzó con un gran interés en resolver problemas complejos a través del código, lo que desde entonces se ha convertido en un profundo compromiso con aprovechar la tecnología para soluciones innovadoras y de gran impacto. Después de completar con éxito un riguroso curso de Desarrollo Full Stack y Ciencias de la Computación, he perfeccionado mis habilidades en varios lenguajes de programación, tecnologías web y sistemas de gestión de bases de datos.
+
+            </p>
+          <p class="paragraph-section">También tengo un interés particular en el campo de la inteligencia artificial, donde veo un enorme potencial para desarrollar aplicaciones inteligentes que pueden revolucionar industrias. Mi experiencia incluye la creación de aplicaciones web dinámicas y receptivas, trabajando tanto con tecnologías de front-end como de back-end, e implementando las mejores prácticas en el desarrollo de software. Tengo un sólido entendimiento de algoritmos y estructuras de datos, que aplico para optimizar el rendimiento y garantizar la escalabilidad de las soluciones que creo.
+            
+            </p>
+          <p class="paragraph-section">Más allá de las habilidades técnicas, aporto un enfoque metódico para la resolución de problemas, una capacidad para adaptarme rápidamente a nuevas tecnologías, y un espíritu colaborativo que prospera en entornos de trabajo en equipo. Siempre estoy buscando oportunidades para expandir mi conocimiento y experiencia, especialmente en inteligencia artificial, donde aspiro a contribuir a proyectos de vanguardia que empujen los límites de lo posible. Mi objetivo es trabajar con una organización visionaria donde pueda aplicar mis habilidades para crear soluciones significativas e innovadoras que aborden desafíos del mundo real.</p>
+        </div></section>
+      <section id="habilidades" class="section">
+        <div class="container">
+          <h2 class="section tittle-section">Habilidades tecnicas</h2>
+          <div class="line"></div>
+
+          <div class="skills-content">
+            <div class="skills-container">
+
+              <div class="skills-card">
+                <div class="skills-icon">
+                  <img src="./assets/icons/html.svg" alt="html">
+                </div>
+                <span><strong>HTML</strong></span>
+              </div>
+
+              <div class="skills-card">
+                <div class="skills-icon">
+                  <img src="./assets/icons/css.svg" alt="css">
+                </div>
+                <span><strong>CSS</strong></span>
+              </div>
+
+              <div class="skills-card">
+                <div class="skills-icon">
+                  <img src="./assets/icons/javascript.svg" alt="JavaScript">
+                </div>
+                <span><strong>JavaScript</strong></span>
+              </div>
+
+              <div class="skills-card">
+                <div class="skills-icon">
+                  <img src="./assets/icons/git.svg" alt="git">
+                </div>
+                <span><strong>Git</strong></span>
+              </div>
+            
+
+            <div class="skills-card">
+              <div class="skills-icon">
+                <img src="./assets/icons/react.svg" alt="git">
+              </div>
+              <span><strong>React</strong></span>
+            </div>
+          
+
+          <div class="skills-card">
+            <div class="skills-icon">
+              <img src="./assets/icons/redux.svg" alt="git">
+            </div>
+            <span><strong>Redux</strong></span>
+          </div>
+        
+
+        <div class="skills-card">
+          <div class="skills-icon">
+            <img src="./assets/icons/express.svg" alt="git">
+          </div>
+          <span><strong>Express</strong></span>
+        </div>
+      
+
+        <div class="skills-card">
+          <div class="skills-icon">
+            <img src="./assets/icons/sequelize.svg" alt="git">
+          </div>
+          <span><strong>Sequelize</strong></span>
+        </div>
+      
+
+      <div class="skills-card">
+        <div class="skills-icon">
+          <img src="./assets/icons/nodejs.svg" alt="git">
+        </div>
+        <span><strong>Nodejs</strong></span>
+      </div>
+    
+
+    <div class="skills-card">
+      <div class="skills-icon">
+        <img src="./assets/icons/postgres.svg" alt="git">
+      </div>
+      <span><strong>Postgres</strong></span>
+    </div>
+  
+
+  <div class="skills-card">
+    <div class="skills-icon">
+      <img src="./assets/icons/postman.svg" alt="git">
+    </div>
+    <span><strong>Postman</strong></span>
+  </div>
+
+  <div class="skills-card">
+    <div class="skills-icon">
+      <img src="./assets/icons/python.svg" alt="git">
+    </div>
+    <span><strong>Python</strong></span>
+  </div>
+</div>
+
+        
+
+            <div class="soft-habilities-container">
+                <h3 class="soft-habilities-tittle"> Habilidades blandas</h3>
+                <ul class="soft-habilities-items">
+                  <li><i class='bx bx-chevron-right'></i><span>Trabajo bajo presion </span></li>
+                  <li><i class='bx bx-chevron-right'></i><span>Precision
+                    </span></li>
+                  <li><i class='bx bx-chevron-right'></i>Puntualidad
+                    </li>
+                  <li><i class='bx bx-chevron-right'></i>Proactividad
+                    </li>
+                  <li><i class='bx bx-chevron-right'></i>Trabajo en equipo
+                    </li>
+                  <li><i class='bx bx-chevron-right'></i>Resolucion de problemas</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="mis-trabajos"class="section">
+        <div class="container">
+          <h2 class="section tittle-section">Algunos de mis trabajos</h2>
+          <div class="line"></div>
+          <div class="project-container">
+
+            <div class="projects">
+                <div class="case">
+                  <div class="pimg">
+                    <img src="./assets/proyectos/e-comerce.PNG" alt="proyecto 1" class="pimg1">
+                    <div class="project-links">
+                      <a href="https://github.com/YerkoAs/E-comerce-frnt-nd.git">See the front code</a>
+                      <a href="https://github.com/YerkoAs/Ecomerce-bck-nd.git">See the back code</a>
+                      <a href="https://e-comerce-fnt-nd.netlify.app/">Explore project</a>
+                    </div>
+                  </div >
+                  <h2>Proyecto full-stack e-comerce</h2>
+                  <p class="p" >Este proyecto es una aplicación web de comercio electrónico full-stack, diseñada para ofrecer a los usuarios una experiencia de compra fluida. Construida utilizando tecnologías modernas, la aplicación cuenta con una interfaz limpia e intuitiva para navegar productos, gestionar un carrito de compras y completar transacciones.</p>
+                </div>
+              </div> 
+  
+              <div class="projects">
+                <div class="case">
+                  <div class="pimg">
+                    <img src="./assets/proyectos/galletas de la fortuna.PNG" alt="proyecto 1" class="pimg1">
+                    <div class="project-links">
+                      <a href="https://github.com/YerkoAs/Galletas-de-la-fortuna.git ">ver codigo</a>
+                      <a href="https://galletas-de-la-fortuna-1.netlify.app">Explorar proyecto</a>
+                    </div>
+                  </div>
+                  <h2>Galletas de la fortuna (React)</h2>
+                  <p>En este proyecto, se desarrolló una aplicación web utilizando React que muestra mensajes aleatorios. Estos mensajes cambian junto con el fondo, proporcionando una experiencia de usuario dinámica.</p>
+                </div>
+              </div> 
+  
+              <div class="projects">
+                <div class="case">
+                  <div class="pimg">
+                    <img src="./assets/proyectos/Weather app.PNG" alt="proyecto 2" class="pimg1">
+                    <div class="project-links">
+                      <a href="https://github.com/YerkoAs/Aplicacion-del-clima.git">Ver codigo</a>
+                      <a href="https://w-e-a-p-p.netlify.app/">Explorar proyecto</a>
+                    </div>
+                  </div>
+                  <h2>Aplicacion de clima en tiempo real</h2>
+                  <p>Este proyecto involucró la creación de una aplicación web que consume una API de clima en tiempo real. El fondo presenta una serie de imágenes animadas que cambian de acuerdo con las condiciones meteorológicas actuales. </p>
+                </div>
+              </div>
+  
+              <div class="projects">
+                <div class="case">
+                  <div class="pimg">
+                    <img src="./assets/proyectos/users crud.PNG" alt="proyecto 3" class="pimg1">
+                    <div class="project-links">
+                      <a href="https://github.com/YerkoAs/CRUD.git">Ver codigo</a>
+                      <a href="https://crudappent4.netlify.app/">Explorar proyecto</a>
+                    </div>
+                  </div>
+                  <h2>Aplicacion CRUD</h2>
+                  <p>Plataforma web que permite almacenar, editar y eliminar perfiles de usuario, realizando solicitudes a una API privada en el backend.</p>
+                </div>
+              </div>
+            
+  
+              <div class="projects">
+                <div class="case">
+                  <div class="pimg">
+                    <img src="./assets/proyectos/Movie app.PNG" alt="proyecto 4" class="pimg1">
+                    <div class="project-links">
+                      <a href="https://github.com/YerkoAs/Movies-ent-03-frnt.git">Ver codigo front-end</a>
+                      <a href="https://github.com/YerkoAs/Movies-ent-03.git">Ver codigo back-end</a>
+                      <a href="https://moviea.netlify.app">Explorar proyecto</a>
+                    </div>
+                  </div>
+                  <h2>Aplicacion web full-stack de peliculas</h2>
+                  <p>En este proyecto, el front-end de la aplicación web fue desarrollado utilizando React. La base de datos fue construida con PostgreSQL, probada con Postman y luego integrada con el front-end. El despliegue fue gestionado a través de varias plataformas: GitHub para control de versiones, Render para el despliegue del backend y Netlify para el despliegue del proyecto.</p>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </section>
+        <section id="contacto"class="section">
+          <div class="container-contact">
+            <h2 class="section tittle-section">Informacion de contacto</h2>
+            <div class="line"></div>
+            <h2 class="frase">Trabajemos juntos.....</h2>
+            <div class="contact-icons">
+              <ul class="contact-icons-list">
+                <li><a href="href='mailto:asbunyerko01@gmail.com'"><i class="bx bxl-gmail"></i><span>Mandame un email</span></a></li>
+  
+                <li><a><i class="bx bxl-linkedin"></i><span>Linkedin</span></a></li>
+                
+                <li><a href="https://github.com/YerkoAs"><i class="bx bxl-github"></i><span>GitHub</span></a></li>
+  
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer">
+          <p> &copy;2024 - Yerko Asbun</p>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./assets/js/index.js"></script> 
+    <script src="./assets/js/type.es.js"></script> 
+    <script src="./assets/js/animation.js"></script>
+
+
+<script>
+  function switchLanguage(lang) {
+      if (lang === 'es') {
+          window.location.href = 'index-es.html'; 
+      } else {
+          window.location.href = 'index.html'; 
+      }
+  }
+</script>
+
+    
+  </body>
+</html>
