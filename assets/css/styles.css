@@ -355,16 +355,9 @@ margin-top: 80px;
     color: var(--paragraph-text-color);
 }
 
-.skills-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid red;
-}
-
 .skills-icon{
     width: 80px;
-    border: 1px solid red;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
