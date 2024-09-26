@@ -339,9 +339,11 @@ margin-top: 80px;
     color: #854b09;
 
 }
+
 .first{
     margin-top: 40px;
 }
+
 .line{
     width: 80%;
     height: 6px;
@@ -352,9 +354,27 @@ margin-top: 80px;
     font-size: 30px;
     color: var(--paragraph-text-color);
 }
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
 .skills-icon{
     width: 80px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.skills-icon img{
+    width: 100%;
+    
+}
+
 .skills-card span{
     margin-top: 10px;
     text-align: center;
